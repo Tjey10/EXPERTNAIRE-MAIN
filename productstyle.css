@@ -1,0 +1,557 @@
+body{
+  overflow-x: hidden;
+}
+
+.product-section {
+  width: 100%;
+  background-color: white;
+  margin: 40px 0px 10px 0px;
+  padding: 0px 5px;
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  align-items: center;
+}
+.productitem {
+  width: 380px;
+  background-color: rgb(248, 250, 250);
+  margin: 0% 3% 20% 3%;
+}
+
+.productbox {
+  display: flex;
+  padding: 20px 5px;
+  height: 210px;
+}
+.productboxtitle {
+  margin-left: 5px;
+}
+
+.productboxtitle a {
+  display: inline-block;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  height: 50px;
+
+}
+.productboxtitle p {
+  height: 100px;
+  margin-top: 10px;
+  line-height: 1;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.productboxbuttom {
+  margin-top: 2%;
+  background-color: rgba(234, 239, 237, 0.766);
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+.productboxbuttom h2 {
+  font-size: 18px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.productboxbuttom button {
+  outline: none;
+  border: none;
+  margin-right: 20px;
+  background-color: orange;
+  height: 30px;
+  margin-top: 12px;
+  padding: 5px 5px;
+}
+
+.productboxbuttom button a{
+  color: white;
+}
+
+.productboxbuttom {
+    color: white;
+}
+
+
+@media only screen and (max-width: 1199px) {
+  .product-section {
+    max-width: 100%;
+    margin: 40px 0px ;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+  
+  }
+  .productitem {
+    width: 90%;
+    background-color: rgb(248, 250, 250);
+    margin-bottom: 20px;
+    margin: 0% 5% 20% 5%;
+  }
+
+  
+.productbox {
+  display: flex;
+  margin: 5px 0px 0px 0px ;
+  padding: 10px 15px;
+  height: 210px;
+}
+.productboxtitle {
+  margin-left: 5px;
+}
+
+.productboxtitle a {
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  height: 90px;
+}
+.productboxtitle p {
+  margin-top: 10px;
+  line-height: 1;
+  font-size: 14px;
+  margin-bottom: 5px;
+  height: 80px;
+}
+
+.productboxbuttom {
+  margin-top: 2%;
+  background-color: rgba(236, 236, 236, 0.734);
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.productboxbuttom h2 {
+  font-size: 15px;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+.productboxbuttom button {
+  outline: none;
+  border: none;
+  margin-right: 18px;
+  background-color: orange;
+  height: 30px;
+  margin-top: 15px;
+  padding: 5px 5px;
+}
+.productboxbuttom a{
+  color: white;
+}
+}
+
+@media only screen and (max-width: 991px){
+  .product-section {
+    max-width: 100%;
+    margin: 40px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0% 3%;
+  }
+
+  .productitem {
+    width: 90%;
+    background-color: rgb(248, 250, 250);
+    /* margin: 2% 5% 6% 5% ; */
+  
+  }
+
+  .productboxtitle a{
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .productboxtitle p {
+    margin-top: 10px;
+    line-height: 1;
+    font-size: 13px;
+    margin-bottom: 5px;
+    height: 80px;
+  }
+
+  .productboxbuttom {
+    margin-top: 2%;
+    background-color: rgb(202, 208, 206);
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+  }
+  .productboxbuttom button {
+    outline: none;
+    border: none;
+    margin-right: 18px;
+    background-color: orange;
+    height: 28px;
+    margin-top: 10px;
+    padding: 3px 5px;
+    
+  }
+  .productboxbuttom a{
+    font-size: 16px;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 885px){
+  .product-section {
+    width: 95%;
+    margin: 40px 25px !important;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .productitem {
+    width: 80%;
+    background-color: rgb(248, 250, 250);
+    margin-right: 15% !important;
+  
+  }
+
+  .productbox {
+    display: flex;
+    margin: 10px 7px 0px 7px;
+    padding: 4px 7px;
+    height: 200px;
+  }
+
+  .productimage{
+    width: 80px;
+    height: 80px;
+  }
+
+  .productboxtitle {
+    margin-left: 5px;
+    width: 100%;
+  }
+  
+  .productboxtitle a {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    height: 90px;
+  }
+  .productboxtitle p {
+    margin-top: 10px;
+    line-height: 1;
+    font-size: 14px;
+    margin-bottom: 5px;
+    height: 85px;
+  }
+  
+  .productboxbuttom {
+    margin-top: 2%;
+    background-color: rgba(236, 236, 236, 0.734);
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+  }
+  .productboxbuttom h2 {
+    font-size: 15px;
+    margin-top: 17px;
+    margin-left: 10px;
+  }
+  .productboxbuttom button {
+    outline: none;
+    border: none;
+    margin-right: 18px;
+    background-color: orange;
+    height: 30px;
+    margin-top: 10px;
+    padding: 4px 5px;
+  } 
+
+  .productboxbuttom button a{
+    font-size: 14px;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 769px){
+  .product-section {
+    max-width: 95%;
+    margin: 40px 8px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 0% 1%;
+    align-content: center;
+  }
+
+  .productitem {
+    width: 80%;
+    background-color: rgb(248, 250, 250);
+    margin-right: 6%;
+    margin-left: 5%;
+  
+  }
+
+  .productbox {
+    display: flex;
+    margin: 8px 7px 2px;
+    height: 190px;
+  }
+
+  .productimage{
+    width: 70px;
+    height: 70px;
+  }
+
+  .productboxtitle {
+    margin-left: 5px;
+    width: 100%;
+  }
+  
+  .productboxtitle a {
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    height: 100px;
+    display: block;
+  }
+  .productboxtitle p {
+    margin-top: 9px;
+    line-height: 1;
+    font-size: 12px;
+    margin-bottom: 5px;
+    height: 65px;
+  }
+  
+  .productboxbuttom {
+    margin-top: 2%;
+    background-color: rgba(236, 236, 236, 0.734);
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+  }
+  .productboxbuttom h2 {
+    font-size: 13px;
+    margin-top: 17px;
+    margin-left: 10px;
+  }
+  .productboxbuttom button {
+    outline: none;
+    border: none;
+    margin-right: 18px;
+    background-color: orange;
+    height: 30px;
+    margin-top: 9px;
+    margin-bottom: 2px;
+    padding: 4px 5px;
+  } 
+
+  .productboxbuttom button a{
+    font-size: 13px;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 661px){
+   .product-section{
+    max-width: 100%;
+   }
+   .productitem{
+    width: 80%;
+    margin-bottom:100px ;
+   }
+  .productbox{
+    padding: 5px 2px;
+    height: 190px;
+  }
+  .productboxtitle a {
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 700;
+    width: 100%;
+    height: 100px;
+    display: block;
+  }
+  .productboxtitle p {
+    margin-top: 9px;
+    line-height: 1;
+    font-size: 11px;
+    margin-bottom: 5px;
+    height: 68px;
+  }
+  .productboxbuttom {
+    margin-top: 2%;
+    background-color: rgb(202, 208, 206);
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+  }
+
+  .productboxbuttom button{
+   background-color: orange; 
+  }
+
+  .productboxbuttom a{
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .product-section {
+    max-width: 100%;
+    margin: auto !important;
+    display: block;
+   
+  }
+
+  .productitem {
+    width: 90%;
+    background-color: rgb(248, 250, 250);
+    margin:auto !important;
+    margin-bottom: 110px !important;
+  
+  }
+
+  .productbox {
+    display: flex;
+    margin: 20px 7px;
+  }
+
+  .productimage{
+    width: 60px;
+    height: 60px;
+  }
+
+   .productboxtitle {
+    margin-left: 5px;
+    width: 100%;
+  }
+  
+  .productboxtitle a {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    height: 62px;
+    display: block;
+  }
+  .productboxtitle p {
+    margin-top: 9px;
+    line-height: 1;
+    font-size: 14px;
+    margin-bottom: 5px;
+    height: 100px;
+    padding: 10px;
+    
+  }
+  
+  .productboxbuttom {
+    margin-top: 2%;
+    background-color: rgba(236, 236, 236, 0.734);
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+  }
+  .productboxbuttom h2 {
+    font-size: 14px;
+    margin-top: 17px;
+    margin-left: 10px;
+  }
+  .productboxbuttom button {
+    outline: none;
+    border: none;
+    margin-right: 18px;
+    background-color: orange;
+    height: 26px;
+    margin-top: 12px;
+    padding: 1px 5px 3px;
+    text-align: center;
+  } 
+
+  .productboxbuttom button a{
+    font-size: 12px;
+    margin-top: 1px;
+    padding-bottom: 2px;
+    color: white;
+
+  } 
+}
+
+@media only screen and (max-width: 414px){
+  .product-section {
+    max-width: 100%;
+    display: block;
+    margin: 0px 50px;
+  }
+
+   .productitem {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.919);
+    display: block;
+    margin: 20px 0px ;
+    padding: 40px 0px;
+    height: 530px;
+    text-align: center;
+  
+  }
+
+  .productbox {
+    display: inline-block;
+    margin: 15px 7px;
+    padding-top: 0px;
+  }
+
+  .productimage{
+    width: 100%;
+    height: 220px;
+  }
+
+  .productboxtitle {
+    width: 100%;
+  }
+  
+  .productboxtitle a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    height: 62px;
+    display: block;
+    color: black;
+    padding-top:4px ;
+    margin-top: 20px;
+  }
+  .productboxtitle p {
+    margin-top: 9px;
+    line-height: 1;
+    font-size: 13px;
+    margin-bottom: 5px;
+    height: 60px;
+    padding: 1px 25px;
+  }
+  
+  .productboxbuttom {
+    margin-top: 4%;
+    background-color: rgba(236, 236, 236, 0.734);
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+  }
+  .productboxbuttom h2 {
+    font-size: 14px;
+    margin-top: 17px;
+    margin-left: 10px;
+  }
+  .productboxbuttom button {
+    outline: none;
+    border: none;
+    margin-right: 18px;
+    background-color: orange;
+    height: 25px;
+    margin-top: 12px;
+    padding: 1.5px 5px 2.5px;
+    text-align: center;
+  } 
+
+  .productboxbuttom button a{
+    font-size: 14px;
+    padding-bottom: 1px;
+    color: white;
+
+  } 
+}
